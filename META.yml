@@ -1,0 +1,29 @@
+---
+abstract: 'A glimpse at an Enlightened Perl (web development).'
+author:
+  - 'Chris Prather <chris@prather.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.00'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-Kensho-WebDev
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  CGI::FormBuilder::Source::Perl: 0
+  MIME::Types: 0
+  Task::Catalyst: 0
+  Template: 0
+  XML::Atom: 0
+  XML::RSS: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.27
