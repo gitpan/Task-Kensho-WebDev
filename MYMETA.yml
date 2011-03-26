@@ -25,4 +25,4 @@ requires:
   Template: 0
   XML::Atom: 0
   XML::RSS: 0
-version: 0.27
+version: 0.28
