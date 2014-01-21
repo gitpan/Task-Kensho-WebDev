@@ -4,8 +4,8 @@ package Task::Kensho::WebDev;
 BEGIN {
   $Task::Kensho::WebDev::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34-TRIAL-47-g92607ef
-$Task::Kensho::WebDev::VERSION = '0.34001'; # TRIAL
+# git description: v0.34001-TRIAL-21-g0ba815c
+$Task::Kensho::WebDev::VERSION = '0.34002'; # TRIAL
 # ABSTRACT: Web Development
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::WebDev - Web Development
 
 =head1 VERSION
 
-version 0.34001
+version 0.34002
 
 =head1 SYNOPSIS
 
