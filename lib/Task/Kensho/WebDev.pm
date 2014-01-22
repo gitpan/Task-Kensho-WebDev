@@ -4,9 +4,9 @@ package Task::Kensho::WebDev;
 BEGIN {
   $Task::Kensho::WebDev::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34001-TRIAL-21-g0ba815c
-$Task::Kensho::WebDev::VERSION = '0.34002'; # TRIAL
-# ABSTRACT: Web Development
+# git description: v0.34002-TRIAL-26-g7cc5fd0
+$Task::Kensho::WebDev::VERSION = '0.34003'; # TRIAL
+# ABSTRACT: A Glimpse at an Enlightened Perl: Web Development
 
 __END__
 
@@ -16,11 +16,11 @@ __END__
 
 =head1 NAME
 
-Task::Kensho::WebDev - Web Development
+Task::Kensho::WebDev - A Glimpse at an Enlightened Perl: Web Development
 
 =head1 VERSION
 
-version 0.34002
+version 0.34003
 
 =head1 SYNOPSIS
 
@@ -38,72 +38,84 @@ Kenshō (見性) (C. Wu) is a Japanese term for enlightenment
 experiences - most commonly used within the confines of Zen
 Buddhism - literally meaning "seeing one's nature"[1] or "true
 self."[2] It generally "refers to the realization of nonduality of
+subject and object."[3]
 
 =back
 
-Task::Kensho is a first cut at building a list of recommended modules
+L<Task::Kensho> is a first cut at building a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
 
-The plan is for Task::Kensho to be a rough testing ground for ideas that
+The plan is for L<Task::Kensho> to be a rough testing ground for ideas that
 go into among other things the Enlightened Perl Organisation Extended
 Core (EPO-EC).
 
-The modules that are bundled by Task::Kensho are broken down into
+The modules that are bundled by L<Task::Kensho> are broken down into
 several categories and are still being considered. They are all taken
 from various top 100 most used perl modules lists and from discussions
 with various subject matter experts in the Perl Community. That said,
 this bundle does I<not> follow the guidelines established for the EPO-EC
 for peer review via industry advisers.
 
-Starting in 2011, Task::Kensho split its sub-groups of modules into
-individually-installable tasks. These individual tasks will always install all
-their modules by default. This facilitates the ease and simplicity the
-distribution aims to achieve. Each Task::Kensho sub-task is listed at the
+Starting in 2011, L<Task::Kensho> split its sub-groups of modules into
+individually-installable tasks.  Each L<Task::Kensho> sub-task is listed at the
 beginning of its section in this documentation.
 
-=head2 Web Development: Task::Kensho::WebDev
+When installing L<Task::Kensho> itself, you will be asked to install each
+sub-task in turn, or you can install individual tasks separately. These
+individual tasks will always install all their modules by default. This
+facilitates the ease and simplicity the distribution aims to achieve.
+
+=head1 RECOMMENDED MODULES
+
+=head2 L<Task::Kensho::WebDev>: Web Development
 
 =for stopwords configs RSS
 
-=over 4
-
-=item L<CGI::FormBuilder::Source::Perl>
+=head3 L<CGI::FormBuilder::Source::Perl>
 
 Build CGI::FormBuilder configs from Perl syntax files.
 
-=item L<MIME::Types>
+=head3 L<MIME::Types>
 
 Definition of MIME types
 
-=item L<Plack>
+=head3 L<Plack>
 
 Flexible superglue between Web Servers and Perl Web Frameworks or code.
 
-=item L<Task::Catalyst>
+=head3 L<Task::Catalyst>
 
 Catalyst is The Elegant MVC Web Application Framework. Task::Catalyst is all you need to start with Catalyst.
 
-=item L<Template::Toolkit>
+=head3 L<Template::Toolkit>
 
 Template Processing System
 
-=item L<XML::Atom>
+=head3 L<XML::Atom>
 
 Atom feed and API implementation
 
-=item L<XML::RSS>
+=head3 L<XML::RSS>
 
 Creates and updates RSS files
 
-=back
+=head1 INSTALLING
+
+Since version 0.34, L<Task::Kensho> has made use of the C<optional_features> field
+in distribution metadata. This allows CPAN clients to interact with you
+regarding which modules you wish to install.
+
+The C<cpanm> client requires interactive mode to be enabled for this to work:
+
+    cpanm --interactive Task-Kensho
 
 =head1 RELEASE SCHEDULE
 
-Starting with release 0.18 Task::Kensho was moved to a monthly release
+Starting with release 0.18, L<Task::Kensho> was moved to a monthly release
 cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in Task::Kensho.
+to track the changes in L<Task::Kensho>.
 
 =head1 BUGS AND LIMITATIONS
 
@@ -114,8 +126,7 @@ better for you. This is however a path to good perl practice, and a
 starting place on the road to Enlightened Perl programming.
 
 Please report any bugs or feature requests to
-C<bug-task-kensho@rt.cpan.org>, or through the web interface at
-L<http://rt.cpan.org>.
+L<https://github.com/EnlightenedPerlOrganisation/task-kensho/issues>.
 
 =head1 SEE ALSO
 
