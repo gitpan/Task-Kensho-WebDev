@@ -4,7 +4,7 @@ Task::Kensho::WebDev - A Glimpse at an Enlightened Perl: Web Development
 
 # VERSION
 
-version 0.34003
+version 0.34004
 
 # SYNOPSIS
 
