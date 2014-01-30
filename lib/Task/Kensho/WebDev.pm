@@ -4,8 +4,8 @@ package Task::Kensho::WebDev;
 BEGIN {
   $Task::Kensho::WebDev::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34003-TRIAL-20-g68853c1
-$Task::Kensho::WebDev::VERSION = '0.34004'; # TRIAL
+# git description: v0.34004-TRIAL-35-g5570bfd
+$Task::Kensho::WebDev::VERSION = '0.35';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Web Development
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::WebDev - A Glimpse at an Enlightened Perl: Web Development
 
 =head1 VERSION
 
-version 0.34004
+version 0.35
 
 =head1 SYNOPSIS
 
@@ -77,9 +77,17 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 Build CGI::FormBuilder configs from Perl syntax files.
 
+=head3 L<Dancer>
+
+A lightweight yet powerful web application framework
+
 =head3 L<MIME::Types>
 
 Definition of MIME types
+
+=head3 L<Mojolicious>
+
+Real-time web framework
 
 =head3 L<Plack>
 
@@ -110,12 +118,6 @@ regarding which modules you wish to install.
 The C<cpanm> client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-=head1 RELEASE SCHEDULE
-
-Starting with release 0.18, L<Task::Kensho> was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in L<Task::Kensho>.
 
 =head1 BUGS AND LIMITATIONS
 

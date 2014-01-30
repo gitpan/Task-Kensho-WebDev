@@ -4,7 +4,7 @@ Task::Kensho::WebDev - A Glimpse at an Enlightened Perl: Web Development
 
 # VERSION
 
-version 0.34004
+version 0.35
 
 # SYNOPSIS
 
@@ -53,9 +53,17 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 Build CGI::FormBuilder configs from Perl syntax files.
 
+### [Dancer](https://metacpan.org/pod/Dancer)
+
+A lightweight yet powerful web application framework
+
 ### [MIME::Types](https://metacpan.org/pod/MIME::Types)
 
 Definition of MIME types
+
+### [Mojolicious](https://metacpan.org/pod/Mojolicious)
+
+Real-time web framework
 
 ### [Plack](https://metacpan.org/pod/Plack)
 
@@ -86,12 +94,6 @@ regarding which modules you wish to install.
 The `cpanm` client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-# RELEASE SCHEDULE
-
-Starting with release 0.18, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in [Task::Kensho](https://metacpan.org/pod/Task::Kensho).
 
 # BUGS AND LIMITATIONS
 
