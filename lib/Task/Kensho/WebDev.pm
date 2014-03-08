@@ -4,8 +4,8 @@ package Task::Kensho::WebDev;
 BEGIN {
   $Task::Kensho::WebDev::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34004-TRIAL-35-g5570bfd
-$Task::Kensho::WebDev::VERSION = '0.35';
+# git description: v0.35-38-g5bd0b68
+$Task::Kensho::WebDev::VERSION = '0.36';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Web Development
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::WebDev - A Glimpse at an Enlightened Perl: Web Development
 
 =head1 VERSION
 
-version 0.35
+version 0.36
 
 =head1 SYNOPSIS
 
@@ -42,7 +42,7 @@ subject and object."[3]
 
 =back
 
-L<Task::Kensho> is a first cut at building a list of recommended modules
+L<Task::Kensho> is a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
@@ -81,6 +81,10 @@ Build CGI::FormBuilder configs from Perl syntax files.
 
 A lightweight yet powerful web application framework
 
+=head3 L<HTML::FormHandler>
+
+HTML forms using Moose
+
 =head3 L<MIME::Types>
 
 Definition of MIME types
@@ -117,7 +121,7 @@ regarding which modules you wish to install.
 
 The C<cpanm> client requires interactive mode to be enabled for this to work:
 
-    cpanm --interactive Task-Kensho
+    cpanm --interactive Task::Kensho::WebDev
 
 =head1 BUGS AND LIMITATIONS
 

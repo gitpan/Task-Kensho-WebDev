@@ -4,7 +4,7 @@ Task::Kensho::WebDev - A Glimpse at an Enlightened Perl: Web Development
 
 # VERSION
 
-version 0.35
+version 0.36
 
 # SYNOPSIS
 
@@ -20,7 +20,7 @@ From [http://en.wikipedia.org/wiki/Kensho](http://en.wikipedia.org/wiki/Kensho):
 > self."\[2\] It generally "refers to the realization of nonduality of
 > subject and object."\[3\]
 
-[Task::Kensho](https://metacpan.org/pod/Task::Kensho) is a first cut at building a list of recommended modules
+[Task::Kensho](https://metacpan.org/pod/Task::Kensho) is a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
@@ -56,6 +56,10 @@ Build CGI::FormBuilder configs from Perl syntax files.
 ### [Dancer](https://metacpan.org/pod/Dancer)
 
 A lightweight yet powerful web application framework
+
+### [HTML::FormHandler](https://metacpan.org/pod/HTML::FormHandler)
+
+HTML forms using Moose
 
 ### [MIME::Types](https://metacpan.org/pod/MIME::Types)
 
@@ -93,7 +97,7 @@ regarding which modules you wish to install.
 
 The `cpanm` client requires interactive mode to be enabled for this to work:
 
-    cpanm --interactive Task-Kensho
+    cpanm --interactive Task::Kensho::WebDev
 
 # BUGS AND LIMITATIONS
 
