@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::WebDev;
-# git description: v0.36-35-g35b32f1
-$Task::Kensho::WebDev::VERSION = '0.37';
+# git description: v0.37-37-g7c8fbce
+$Task::Kensho::WebDev::VERSION = '0.38';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Web Development
 
 __END__
@@ -17,7 +17,7 @@ Task::Kensho::WebDev - A Glimpse at an Enlightened Perl: Web Development
 
 =head1 VERSION
 
-version 0.37
+version 0.38
 
 =head1 SYNOPSIS
 
@@ -98,9 +98,9 @@ Flexible superglue between Web Servers and Perl Web Frameworks or code.
 
 Catalyst is The Elegant MVC Web Application Framework. Task::Catalyst is all you need to start with Catalyst.
 
-=head3 L<Template::Toolkit>
+=head3 L<Template>
 
-Template Processing System
+(Template::Toolkit) Template Processing System
 
 =head3 L<XML::Atom>
 
